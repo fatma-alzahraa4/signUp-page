@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container BG mt-5 w-50 py-5  show" id="signinpage">
+            <h1 class="fs-1 mb-3 text-center  ">Smart Login System</h1>
+            <form >
+                <input class="form-control  mb-3 text-light"  placeholder="Enter your email" name = "email" id="Email"></input>
+                <input class="form-control  mb-4 text-light" placeholder="Enter your password" id="Pass"></input>
+                <button type="button" onclick="login()" class="btn btn-c mb-3 btn-outline-danger m-auto w-100">Login </button>
+                <p class="text-center text-light">Don’t have an account? <span><a class="text-decoration-none text-light " href="signup.html">Sign Up</a></span> </p>
+
+            </form>
+        </div>
+
+
+
+
+        <div class="  hide" id="welpage">
+            
+
+
+            <nav class="navbar bg-green">
+                <div class="container">
+                  <a class="navbar-brand text-light">SMART LOGIN</a>
+                  <form class="d-flex" role="search">
+                    <button class="btn btn-outline-warning text-muted" onclick="logout()" type="button">Logout</button>
+                  </form>
+                </div>
+              </nav>
+
+
+            <div class="m-auto BG mt-5 w-50 py-5">
+                <h1 class="fs-1 mb-3 text-center  " id="welcome"></h1>
+                
+            </div>
+        </div>
+
+
+
+        <script src="main.js"></script>
+    </body>
+</html>

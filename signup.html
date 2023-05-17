@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container BG mt-5 w-50 py-5 ">
+            <h1 class="fs-1 mb-3 text-center  ">Smart Login System</h1>
+            <form >
+                <input class="form-control  mb-3 text-light"  placeholder="Enter your name" name="name" id="name"></input>
+                <input class="form-control  mb-3 text-light"  placeholder="Enter your email" name = "email" id="email"></input>
+                <input class="form-control   text-light"  placeholder="Enter your password" name="password" id="pass"></input>
+                <p class="mb-3 mt-3 p_color1 text-center" id="fail">email already exists</p>
+                <p class="mb-3 mt-3 p_color2 text-center" id="success">Success</p>
+                <p class="mb-3 mt-3 p_color1 text-center" id="inv">INVALID EMAIL</p>
+
+                <button type="button" class="btn btn-c mb-3 btn-outline-danger m-auto w-100 mt-4" onclick="signup() ">Sign Up</button>
+
+                <p class="text-center text-light">Don’t have an account? <span><a class="text-decoration-none text-light " href="index.html">Sign In</a></span> </p>
+
+            </form>
+        </div>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
